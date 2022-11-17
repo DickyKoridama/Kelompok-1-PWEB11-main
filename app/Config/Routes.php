@@ -39,6 +39,7 @@ $routes->get('/', 'Home::index');
 $routes->get('karyawan', 'Admin\Karyawan::index');
 $routes->get('edit', 'Admin\Karyawan::edit');
 $routes->get('tambah', 'Admin\Karyawan::tambah');
+$routes->post('tambah', 'Admin\Karyawan::tambah');
 $routes->get('absen', 'Admin\Absen::index');
 $routes->get('kinerja', 'Admin\Kinerja::index');
 

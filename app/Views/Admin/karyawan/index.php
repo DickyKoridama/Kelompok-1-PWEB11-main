@@ -33,9 +33,9 @@
         <td><?= $value['tanggal_lahir']?></td>
         <td><?= $value['agama']?></td>
         <td><?= $value['jk']?></td>
-        <td><?= $value['agama']?></td>
-        <td><?= $value['kontak']?></td>
         <td><?= $value['jabatan']?></td>
+        <td><?= $value['kontak']?></td>
+        
     </tr>
     <?php endforeach?>
     
